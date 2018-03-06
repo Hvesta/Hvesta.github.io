@@ -1,0 +1,298 @@
+@font-face {
+    font-family: 'tengwar_annatarregular';
+
+    src: url('fonts/tengar_annatar/tengwar-webfont.woff2') format('woff2'),
+         url(fonts/tengar_annatar/tengwar-webfont.woff) format('woff'),
+         url('fonts/tengar_annatar/tengwar-webfont.ttf') format('truetype');
+         
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'anironcbold';
+    src: url('fonts/aniron/anicb___-webfont.eot');
+    src: url('fonts/aniron/anicb___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aniron/anicb___-webfont.woff2') format('woff2'),
+         url('fonts/aniron/anicb___-webfont.woff') format('woff'),
+         url('fonts/aniron/anicb___-webfont.ttf') format('truetype'),
+         url('fonts/aniron/anicb___-webfont.svg#anironcbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anironcregular';
+    src: url('fonts/aniron/anicm___-webfont.eot');
+    src: url('fonts/aniron/anicm___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aniron/anicm___-webfont.woff2') format('woff2'),
+         url('fonts/aniron/anicm___-webfont.woff') format('woff'),
+         url('fonts/aniron/anicm___-webfont.ttf') format('truetype'),
+         url('fonts/aniron/anicm___-webfont.svg#anironcregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'anironbold';
+    src: url('fonts/aniron/anirb___-webfont.eot');
+    src: url('fonts/aniron/anirb___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aniron/anirb___-webfont.woff2') format('woff2'),
+         url('fonts/aniron/anirb___-webfont.woff') format('woff'),
+         url('fonts/aniron/anirb___-webfont.ttf') format('truetype'),
+         url('fonts/aniron/anirb___-webfont.svg#anironbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'anironregular';
+    src: url('fonts/aniron/anirm___-webfont.eot');
+    src: url('fonts/aniron/anirm___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/aniron/anirm___-webfont.woff2') format('woff2'),
+         url('fonts/aniron/anirm___-webfont.woff') format('woff'),
+         url('fonts/aniron/anirm___-webfont.ttf') format('truetype'),
+         url('fonts/aniron/anirm___-webfont.svg#anironregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'party_businessregular';
+    src: url('fonts/party_business/partybusiness-webfont.eot');
+    src: url('fonts/party_business/partybusiness-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/party_business/partybusiness-webfont.woff2') format('woff2'),
+         url('fonts/party_business/partybusiness-webfont.woff') format('woff'),
+         url('fonts/party_business/partybusiness-webfont.ttf') format('truetype'),
+         url('fonts/party_business/partybusiness-webfont.svg#party_businessregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'party_businessregular';
+}
+
+h1, h2, h3, .lien_navigation, .nav-pills > li > a {
+    font-family: 'anironregular';
+}
+
+
+
+
+/*header*/
+
+
+
+.navbar {
+    background-color: #FF530D;
+}
+
+.navbar-default .navbar-nav > li > a.lien_navigation {
+    color: white;
+    font-size: 20px;
+    padding-right: 50px;
+    border-right: solid;
+    
+}
+
+
+.lien {
+    color: white;
+}
+
+header .navbar {
+    margin-bottom: 0;
+    
+}
+
+/*section un*/
+.carousel-caption .titre_image {
+    font-size: 10vh;
+}
+.carousel-caption {
+    transform: translateY(-40%);
+
+}
+
+
+
+/*section deux*/
+
+
+
+#portrait h3::before {
+    font-family:'tengwar_annatarregular';
+    content: "ij";
+    font-size: 40px;
+    color: orange;
+    
+}
+
+#portrait h3::after {
+    font-family:'tengwar_annatarregular';
+    content: "ij";
+    font-size: 40px;
+    color: orange;
+}
+
+#portrait h3 {
+    font-size: 20px;
+}
+
+.navbar-default .navbar-nav > li > a.lien_navigation:hover {
+    text-decoration: underline;
+    
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color: transparent;
+    text-decoration: underline;
+    color: orange;
+}
+    
+.nav-pills > li > a {
+    color: black;
+    font-size: 17px;
+    
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+    background-color: transparent;
+    color: orange;
+    text-decoration: underline;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a::before {
+    content: "b";
+    font-family: tengwar_annatarregular';
+    color: orange;
+    
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a::after {
+    content: "b";
+    font-family: tengwar_annatarregular';
+    color: orange; 
+    
+}
+
+
+#portrait {
+    background-image: url("Images/bg_light.png");
+        
+}
+
+.thumbnail img {
+    opacity: 0.5;
+}
+
+
+.thumbnail {
+    background-color: black;
+}
+
+
+.thumbnail .caption {
+    color: white;
+    font-size: 30px;
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.reward {
+    position: absolute;
+    top: 35px;
+    background-color: white;
+    opacity: 0.7;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;
+    padding: 1em;
+    
+}
+
+.name {
+    position: absolute;
+    top: 200px;
+    font-size: 45px;
+    color: white;
+}
+
+.name_dead {
+    position: absolute;
+    top: 200px;
+    font-size: 50px;
+    color: white;
+}
+
+.dead {
+    position: absolute;
+    top: 35px;
+    font-size: 30px;
+    color: orange;
+    
+}
+
+span {
+    color: orange;
+}
+
+.thumbnail img:hover {
+    opacity: 1;
+}
+
+
+.thumbnail:hover .reward {
+    display: none;
+}
+
+.thumbnail:hover .name {
+    top: 300px;
+    color: black;
+    font-size: 25px;
+}
+
+
+
+#reward {
+    background-image: url("Images/bg_dark.png");
+}
+
+/*section quatre*/
+#hunters {
+    background-image: url("Images/bg_light.png");
+}
+
+/*section cinq*/
+#the_ring {
+    background-image: url("Images/bg_dark.png");
+}
+
+/*section six*/
+
+#army {
+    background-image: url("Images/bg_light.png");
+}
+
+/*section sept*/
+#contact {
+    background-image: url("Images/bg_dark.png");
+    
+}
+
+/*footer*/
+footer {
+    background-color: #FF530D;
+}
+
